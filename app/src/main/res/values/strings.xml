@@ -30,7 +30,7 @@
     <string name="no_order_pack">No Order Pack</string>
     <string name="order_pack">Order Pack</string>
     <string name="we_send_e_mail_to">We send e-mail to:</string>
-    <string name="save_adress">Save Adress</string>
+    <string name="save_adress">Save Address</string>
     <string name="repeat_send_e_mail">Repeat send e-mail</string>
     <string name="you_go_to_your_mail_and_confirmation">You go to your mail and confirmation registration</string>
     <string name="regulations_express_package_account">Regulations Express Package Account</string>
@@ -63,8 +63,9 @@
     <string name="payment_">Payment:</string>
     <string name="confirmation_">Confirmation:</string>
     <string name="location_driver_">Location Driver:</string>
-    <string name="posting_adress_">Posting Adress:</string>
-    <string name="pickup_adress_">Pickup Adress:</string>
+    <string name="posting_adress_">Posting Address:</string>
+    <string name="pickup_adress_">Pickup Address:</string>
     <string name="cancel">Cancel</string>
     <string name="order">Order</string>
+    <string name="who_pickup">Who Pickup:</string>
 </resources>
