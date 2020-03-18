@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ExpressPackage</string>
+    <string name="login">Login</string>
+    <string name="password">Hasło</string>
+    <string name="remember_login_and_password">Zapamiętaj login i hasło</string>
+    <string name="name" translatable="false">Imię</string>
+    <string name="surname">Nazwisko</string>
+    <string name="phone_number">Numer Telefonu</string>
+    <string name="re_password">Powtórz hasło</string>
+    <string name="register">Zarejestruj</string>
+    <string name="you_must_add_all_information">Musisz podać wszystkie informacje</string>
+    <string name="next_point">Następny punkt</string>
+    <string name="city">Miasto</string>
+    <string name="street">Ulica</string>
+    <string name="number_house">Numer domu</string>
+    <string name="number_local">Numer lokalu</string>
+    <string name="name_who_confirmation">Imię osoby odbierającej</string>
+    <string name="click_here">naciśnij tutaj!</string>
+    <string name="you_must_add_all_informations_and_accept_regulations">Musisz podać wszystkie informacje i zaakceptować regulamin</string>
+    <string name="accept">Akceptuję</string>
+    <string name="regulations">Regulamin</string>
+    <string name="confrimation_order">Potwierdzenie Paczki</string>
+    <string name="i_can_run_qr_scanner">Uruchom QR Scaner</string>
+    <string name="qr_scanner">QR Scaner</string>
+    <string name="no_order_pack">Numer Paczki</string>
+    <string name="we_send_e_mail_to">Wysłaliśmy e-mail na adress</string>
+    <string name="save_adress">Zapisz Adres</string>
+    <string name="repeat_send_e_mail">Wyślij ponownie e-mail</string>
+    <string name="accept_regulations">Zaakceptuj regulamin</string>
+    <string name="size">Rozmiar</string>
+    <string name="small">Mały</string>
+    <string name="big">Duży</string>
+    <string name="driver">Kierowca</string>
+    <string name="standard">Standard</string>
+    <string name="payment">Płatność</string>
+    <string name="confirmation">Potwierdzenie</string>
+    <string name="location_driver">Lokalizacja kierowcy</string>
+    <string name="licensed">Licencjonowany</string>
+    <string name="no_signature">Brak Podpisu</string>
+    <string name="electronic_signature">Elektroniczny Podpis</string>
+    <string name="qr_code_signature">Podpis QR Code</string>
+    <string name="sender">Wysyłający</string>
+    <string name="receiver">Odbierający</string>
+    <string name="no">Nie</string>
+    <string name="yes">Tak</string>
+    <string name="next">Dalej</string>
+    <string name="cancel_order">Anuluj zlecenie</string>
+    <string name="show_summary">Zobacz podsumowanie</string>
+    <string name="number_who_confirmation">Numer telefonu osoby odbierającej</string>
+    <string name="No_Order_Pack">"Numer Paczki: "</string>
+    <string name="e_mail" translatable="false">E-mail</string>
+    <string name="if_you_can_t_account" translatable="false">Jeżeli nie masz konta,</string>
+    <string name="login_button">Zaloguj</string>
+    <string name="i_can_write_number_order" translatable="false">Chcę wpisać numer paczki</string>
+    <string name="order_pack" translatable="false">Numer paczki</string>
+    <string name="regulations_express_package_account" translatable="false">"Regulamin Konta Express Packege "</string>
+    <string name="you_go_to_your_mail_and_confirmation" translatable="false">Przejdź do e-mail i potwierdź rejestrację</string>
+    <string name="i_can_order_pack" translatable="false">Mam numer paczki</string>
+</resources>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TypeActivity">
+
+    <TextView
+        android:id="@+id/textViewSizeType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupSizeType"
+        android:layout_width="213dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSizeType">
+
+        <RadioButton
+            android:id="@+id/radioButtonSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/small" />
+
+        <RadioButton
+            android:id="@+id/radioButtonBig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/big" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewDriverType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/driver"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupSizeType" />
+
+    <TextView
+        android:id="@+id/textViewConfirmationType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/confirmation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupPaymentType" />
+
+    <TextView
+        android:id="@+id/textViewLocationType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/location_driver"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupConfirmationType" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupDriverType"
+        android:layout_width="213dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDriverType">
+
+        <RadioButton
+            android:id="@+id/radioButtonStandardType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/standard" />
+
+        <RadioButton
+            android:id="@+id/radioButtonLicensedType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/licensed" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroupConfirmationType"
+        android:layout_width="213dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewConfirmationType">
+
+        <RadioButton
+            android:id="@+id/radioButtonNoSignatureType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/no_signature" />
+
+        <RadioButton
+            android:id="@+id/radioButtonElectronicSignatureType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/electronic_signature" />
+
+        <RadioButton
+            android:id="@+id/radioButton7QRCodeSignatureType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/qr_code_signature" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewPaymentType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/payment"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupDriverType" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupPaymentType"
+        android:layout_width="213dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPaymentType" >
+
+        <RadioButton
+            android:id="@+id/radioButtonSenderType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/sender" />
+
+        <RadioButton
+            android:id="@+id/radioButtonReceiverType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/receiver" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/RadioGroupLocationDriverType"
+        android:layout_width="213dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLocationType">
+
+        <RadioButton
+            android:id="@+id/radioButtonYesLocationType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/yes" />
+
+        <RadioButton
+            android:id="@+id/radioButtonNoLocationType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/no" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonNextType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
